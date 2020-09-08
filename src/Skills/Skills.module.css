@@ -1,0 +1,38 @@
+.mainBlock{
+    min-height: 50vh;
+    background-color: #d2d0d0;
+    /*padding: 20px;*/
+    border-top: 1px solid;
+}
+.skillsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+}
+.title{
+    background-color: #aeacac;
+    padding: 5px;
+}
+.skills{
+    /*border:1px solid;*/
+    width: 100%;
+    min-height: 20%;
+    background-color: #aeacac;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-grow: 1;*/
+    align-items: center;
+    justify-content: space-around;
+}
+.text{
+    width: 400px;
+    background-color: #b0acac;
+}
+.photo{
+    width: 400px;
+}
+img{
+    width: 400px;
+}

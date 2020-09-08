@@ -1,0 +1,19 @@
+.wrapper{
+    background-color: #dbd4d4;
+    padding: 20px;
+    border-top: 1px solid;
+}
+.onlineJbBlock{
+    /*background-color: #99a5a4;*/
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    /*padding: 15px;*/
+}
+.title{
+    background-color: #e5dede;
+    padding: 5px;
+}

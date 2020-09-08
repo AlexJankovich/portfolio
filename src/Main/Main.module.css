@@ -1,0 +1,29 @@
+.mainBlock {
+    min-height: 20vh;
+    background-color: #e5dede;
+    padding: 20px;
+    border-top: 1px solid;
+}
+
+.mainContainer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+}
+
+.text {
+    background-color: #b0acac;
+    padding: 8px;
+    margin: 10px;
+}
+
+.photo {
+
+}
+
+.img {
+ min-width:auto;
+
+}

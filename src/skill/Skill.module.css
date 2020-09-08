@@ -1,0 +1,29 @@
+.skill {
+    min-width: 200px;
+    max-width: 350px;
+    height: 250px;
+    background-color: #dce0df;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.icon {
+    min-height: 60px;
+    width: 60px;
+    background-color: dimgray;
+    margin: 10px;
+}
+
+.description {
+    text-align: center;
+    padding: 8px;
+    overflow: auto;
+}
+
+/*h3{*/
+/*    margin: 0;*/
+/*}*/

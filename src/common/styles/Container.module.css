@@ -1,0 +1,12 @@
+.container{
+    /*border: 1px solid;*/
+    width: 90%;
+    min-width: 300px;
+    /*height: 100%;*/
+    margin: 0 auto;
+    flex-wrap: wrap;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: center;*/
+}

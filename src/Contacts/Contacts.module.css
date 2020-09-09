@@ -1,7 +1,7 @@
 .contactWrapper {
     min-height: 20vh;
     background-color: #e5dede;
-    padding: 20px;
+    padding: 20px 0 20px 0;
     /*border-top: 1px solid;*/
     display: flex;
     justify-content: center;
@@ -15,7 +15,9 @@
     align-items: center;
     border: 1px solid;
 }
-.mainDescription{margin-bottom: 20px}
+.mainDescription{
+    /*margin-bottom: 20px*/
+}
 .form div {
     /*min-width: 350px;*/
     /*display: flex;*/
@@ -30,12 +32,12 @@
     align-items: center;
     /*width: 60%;*/
     width: 310px;
-    margin: 0 auto;
-    border: 1px solid;
+    margin: 20px 0 20px 0;
+    /*border: 1px solid;*/
 }
 
 .form button{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
  form input{
      width: 97%;

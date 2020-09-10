@@ -16,7 +16,7 @@
 .text {
     background-color: #b0acac;
     padding: 8px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .photo {
@@ -24,6 +24,5 @@
 }
 
 .img {
- min-width:auto;
-
+    width: 300px;
 }

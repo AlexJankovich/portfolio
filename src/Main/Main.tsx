@@ -11,9 +11,7 @@ function Main() {
                     <h1>I am REACT-DEVELOPER</h1>
                     <p>FrontEnd developer</p>
                 </div>
-                <div className={style.photo}>
                     <img src='https://u24.ru/img/news/article_big_389791501756126.jpg'   className={style.img} />
-                </div>
             </div>
         </div>
     );

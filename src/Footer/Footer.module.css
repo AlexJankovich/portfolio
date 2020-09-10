@@ -1,17 +1,11 @@
 .footer {
 
-    width: 98%;
-
-    /*min-width: 400px;*/
-    margin: 0 auto;
-    /*display: flex;*/
-    /*justify-content: flex-end;*/
-    /*align-items: center;*/
-    margin-bottom: 50px;
+    width: 100%;
+padding: 20px 0;
+    /*margin: 0 auto;*/
 }
 
 .wrapper{
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;

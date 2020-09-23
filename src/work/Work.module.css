@@ -1,7 +1,6 @@
 .work {
-    /*border-top: 1px solid;*/
     min-width: 200px;
-    max-width: 350px;
+    width: 350px;
     height: 350px;
     background-color: dimgray;
     display: flex;
@@ -32,4 +31,11 @@
 
 .work h3{
     color: #d2d0d0;
+}
+
+@media screen and (max-width: 830px) {
+    .work {
+        width: 480px;
+        /*font-size: 25px;*/
+    }
 }

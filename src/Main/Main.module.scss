@@ -1,0 +1,42 @@
+.mainBlock {
+  min-height: 14vh;
+  background-color: #2D3648;
+  padding: 20px;
+  border-top: 1px solid;
+
+  .mainContainer {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .text {
+      //background-color: #b0acac;
+      padding: 8px;
+      margin: 10px 0;
+      color: white;
+      h1{
+        border: 2px solid white;
+        padding: 8px;
+      }
+    }
+
+    .img {
+      width: 300px;
+    }
+
+    @media screen and (max-width: 830px) {
+      .mainContainer {
+        flex-direction: column-reverse;
+      }
+      .img {
+        width: 380px;
+      }
+    }
+    @media screen and (max-width: 471px) {
+      .img {
+        width: 100%;
+      }
+    }
+  }
+}

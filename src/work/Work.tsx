@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Work.module.css'
+import style from './Work.module.scss'
 
 type WorkType={
     title:string

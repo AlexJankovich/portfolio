@@ -39,13 +39,12 @@ function Contacts() {
         <div className={style.contactWrapper}>
             <div className={styleContainer.container}>
                 <div className={style.form}>
-                    <div className={style.mainDescription}>Контакты</div>
+                    <div className={style.mainDescription}><h2>Контакты</h2></div>
                     <form action=" " onSubmit={onSubmit}>
-                        <input type="text" placeholder='your email' name={'contacts'}/>
-                        <input type="text" placeholder='your name' name={'yourName'}/>
-                        <textarea name={'message'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aut autem facere ipsa mollitia officiis quaerat quis sint, tempora tenetur? Inventore perferendis quam repudiandae sapiente sunt. Eum molestiae porro tempora.
-                    </textarea>
-                        <div>
+                        <input type="text" placeholder='Email' name={'contacts'}/>
+                        <input type="text" placeholder='Name' name={'yourName'}/>
+                        <textarea name={'message'} placeholder={'Message'}></textarea>
+                        <div className={style.buttonWrapper}>
                             <button>отправить</button>
                         </div>
                     </form>

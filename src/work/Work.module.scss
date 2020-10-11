@@ -1,15 +1,11 @@
 .work {
-  min-width: 200px;
   width: 400px;
-  //height: 350px;
-  background-color: dimgray;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 5px;
   margin-bottom: 25px;
-  box-shadow: 0 0 7px #ECC0C6;
 
   .icon {
     min-height: 200px;
@@ -67,6 +63,5 @@
 @media screen and (max-width: 830px) {
   .work {
     width: 480px;
-    /*font-size: 25px;*/
   }
 }

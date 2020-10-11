@@ -1,6 +1,6 @@
 .header {
     height: 80px;
-    width: 65%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
@@ -11,18 +11,3 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 1370px){
-    .header{
-        width: 80%;}
-}
-
-@media screen and (max-width: 980px){
-    .header{
-        width: 100%;}
-}
-
-@media screen and (max-width: 511px) {
-    .header {
-        width: 100%;
-    }
-}

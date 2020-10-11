@@ -10,7 +10,7 @@ export const OnlineJob =()=>{
                 <div className={style.title}>
                     <span>Рассматриваю варианты удалённой работы</span>
                 </div>
-                <div>
+                <div className={style.buttonWrapper}>
                     <button>Нанять меня</button>
                 </div>
             </div>

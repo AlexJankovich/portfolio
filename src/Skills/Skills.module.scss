@@ -1,5 +1,5 @@
 .mainBlock{
-  min-height: 45vh;
+  min-height: 85vh;
   background-color: #201E43;
   border-top: 1px solid;
   display: flex;
@@ -11,9 +11,7 @@
     align-items: center;
 
     .title{
-      //background-color: #aeacac;
       padding: 5px;
-      font-size: 55px;
       font-weight: bold;
       color:white;
       font-family: "Convergence", sans-serif;
@@ -21,7 +19,6 @@
     .skills{
       width: 100%;
       min-height: 20%;
-      //background-color: #F1C9CD;
       display: flex;
       flex-wrap: wrap;
       align-items: center;

@@ -2,7 +2,8 @@ import React from 'react';
 import style from './Works.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import Work from "../work/Work";
-
+import social from '../assets/image/social.jpg'
+import todolist from '../assets/image/todolist.jpg'
 
 function Works() {
     return (
@@ -11,11 +12,13 @@ function Works() {
                 <h2 className={style.title}>Мои работы</h2>
                 <div className={style.works}>
                     <Work
-                        title={"title"}
+                        imgUrl={social}
+                        title={"Социальная сеть"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis dignissimos dolore eum fac"}
                     />
                     <Work
-                        title={"title"}
+                        imgUrl={todolist}
+                        title={"ToDoList"}
                         description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis d."}
                     />
 

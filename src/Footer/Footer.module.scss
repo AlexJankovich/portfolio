@@ -1,6 +1,8 @@
 .footer {
   width: 100%;
   padding: 20px 0;
+  background-color: #201E43;
+  color: white;
   .wrapper {
     display: flex;
     flex-direction: column;
@@ -14,7 +16,7 @@
       .content {
         width: 250px;
         height: 80px;
-        border: 1px solid;
+        border: 1px solid ;
         text-align: center;
         margin: 20px 0 20px 0;
         div {

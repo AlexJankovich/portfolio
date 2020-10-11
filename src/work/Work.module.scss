@@ -1,14 +1,16 @@
 .work {
   min-width: 200px;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  //height: 350px;
   background-color: dimgray;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 5px;
-  margin: 5px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 7px #ECC0C6;
+
   .icon {
     min-height: 200px;
     width: 100%;
@@ -17,10 +19,43 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    button {
+      position: absolute;
+      //width: 50%;
+      //z-index: -1;
+      font-size: 25px;
+      visibility: hidden;
+    }
+
+    button:hover {
+      z-index: 2;
+      transform: scale(2, 2);
+      transition-duration: 0.5s;
+    }
   }
-  h3{
+
+  .icon:hover {
+    img {
+      filter: brightness(0.4);
+      transition-duration: 0.5s;
+    }
+
+    button {
+      visibility: visible;
+    }
+  }
+
+  h3 {
     color: #d2d0d0;
   }
+
   .description {
     text-align: center;
     padding: 8px;
@@ -28,6 +63,7 @@
     color: #d2d0d0;
   }
 }
+
 @media screen and (max-width: 830px) {
   .work {
     width: 480px;

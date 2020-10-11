@@ -26,11 +26,13 @@ function Contacts() {
         }
         console.log(data)
 
-        axios.post('http://localhost:3009/sendMessage', data)
+        axios.post('https://mail-smtp-nodejs-server.herokuapp.com/sendMessage', data)
             .then(() => {
                 alert('sent')
             })
-
+            .catch(()=>{
+                alert('Some Error')
+            })
     }
 
     return (

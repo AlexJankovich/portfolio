@@ -1,9 +1,28 @@
 .header {
     height: 80px;
-    width: 90%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: white;
+    background-color: #0D0C4C;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1370px){
+    .header{
+        width: 80%;}
+}
+
+@media screen and (max-width: 980px){
+    .header{
+        width: 100%;}
+}
+
+@media screen and (max-width: 511px) {
+    .header {
+        width: 100%;
+    }
 }

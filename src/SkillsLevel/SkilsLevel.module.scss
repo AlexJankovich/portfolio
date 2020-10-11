@@ -1,0 +1,28 @@
+.levelWrapper {
+  //display: flex;
+  //flex-direction: row;
+  //margin-top: 25px;
+  //div {
+  //  height: 5px;
+  //  width: 60px;
+  //  border: 1px solid #a49b9b;
+  //  margin-right: 3px;
+  //}
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0 25px 0;
+  float: right;
+
+  div {
+    height: 5px;
+    width: 60px;
+    border: 1px solid #a49b9b;
+    margin-right: 3px;
+  }
+}
+
+@media screen and (max-width: 630px){
+.levelWrapper{
+  width: 100%;
+}
+}

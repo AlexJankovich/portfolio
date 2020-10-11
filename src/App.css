@@ -1,4 +1,15 @@
-.wrapper{
+.wrapper {
+    width: 65%;
+    margin: 0 auto;
     min-width: 350px;
     font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (max-width: 1370px){
+.wrapper{
+    width: 80%;}
+}
+@media screen and (max-width: 980px){
+.wrapper{
+    width: 100%;}
 }

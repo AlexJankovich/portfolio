@@ -12,11 +12,39 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
+
+    .sixCorner {
+      width: 300px;
+      position: absolute;
+      z-index: 0;
+      right: 50%;
+      transform: rotate(360deg);
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg)
+        }
+        //50% {
+        //  transform: rotate(180deg)
+        //}
+        to {
+          transform: rotate(360deg)
+        }
+
+      }
+      animation: rotate 10s infinite linear;
+
+      img {
+        height: 100px;
+      }
+    }
 
     .text {
       padding: 8px;
       margin: 10px 0;
       color: white;
+      z-index: 2;
 
       h1 {
         border: 2px solid white;
@@ -56,6 +84,7 @@
           box-shadow: 0 0 10px -10px #ECC0C6
         }
       };
+      z-index: 2;
       animation: box-shadow 4s infinite ease-in-out;
     }
 

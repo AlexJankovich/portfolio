@@ -13,7 +13,7 @@ function Footer() {
                 <div className={styleContainer.container}>
                     <div className={style.wrapper}>
                         <div className={style.contentWrapper}>
-                            <div>имя</div>
+                            {/*<div>имя</div>*/}
                             <div className={style.content}>
                                 <Nav/>
                             </div>

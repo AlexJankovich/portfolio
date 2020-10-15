@@ -13,7 +13,7 @@ function Main() {
                 <div className={style.text}>
                     <span>Hi There!</span>
                     <h1>I am REACT-DEVELOPER</h1>
-                    <p>FrontEnd developer</p>
+                    <span>FrontEnd developer</span>
                 </div>
                     <img src='https://u24.ru/img/news/article_big_389791501756126.jpg'   className={style.img} />
             </div>

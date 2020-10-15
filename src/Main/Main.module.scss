@@ -6,6 +6,7 @@
   margin-top: 80px;
   display: flex;
   align-content: center;
+  font-size: 25px;
 
   .mainContainer {
     padding: 5px;
@@ -42,50 +43,55 @@
 
     .text {
       padding: 8px;
-      margin: 10px 0;
+      //margin: 10px 0;
       color: white;
       z-index: 2;
+
+      //span {
+      //  padding: 30px 0 30px 0;
+      //}
 
       h1 {
         border: 2px solid white;
         padding: 8px;
-        box-shadow: 0 0 10px #ECC0C6;
+        //box-shadow: 0 0 10px #ECC0C6;
         font-family: "Convergence", sans-serif;
         font-weight: bold;
         font-size: 55px;
-
-        @keyframes box-shadow {
-          from {
-            box-shadow: 0 0 10px -10px #ECC0C6
-          }
-          50% {
-            box-shadow: 0 0 10px 10px #ECC0C6
-          }
-          to {
-            box-shadow: 0 0 10px -10px #ECC0C6
-          }
-        };
-
-        animation: box-shadow 4s infinite ease-in-out;
+        margin: 25px 0;
+        //
+        //@keyframes box-shadow {
+        //  from {
+        //    box-shadow: 0 0 10px -10px #ECC0C6
+        //  }
+        //  50% {
+        //    box-shadow: 0 0 10px 10px #ECC0C6
+        //  }
+        //  to {
+        //    box-shadow: 0 0 10px -10px #ECC0C6
+        //  }
+        //};
+        //
+        //animation: box-shadow 4s infinite ease-in-out;
       }
     }
 
     .img {
       width: 300px;
-      box-shadow: 0 0 10px #ECC0C6;
-      @keyframes box-shadow {
-        from {
-          box-shadow: 0 0 10px -10px #ECC0C6
-        }
-        50% {
-          box-shadow: 0 0 10px 10px #ECC0C6
-        }
-        to {
-          box-shadow: 0 0 10px -10px #ECC0C6
-        }
-      };
+      //box-shadow: 0 0 10px #ECC0C6;
+      //@keyframes box-shadow {
+      //  from {
+      //    box-shadow: 0 0 10px -10px #ECC0C6
+      //  }
+      //  50% {
+      //    box-shadow: 0 0 10px 10px #ECC0C6
+      //  }
+      //  to {
+      //    box-shadow: 0 0 10px -10px #ECC0C6
+      //  }
+      //};
       z-index: 2;
-      animation: box-shadow 4s infinite ease-in-out;
+      //animation: box-shadow 4s infinite ease-in-out;
     }
 
     @media screen and (max-width: 830px) {

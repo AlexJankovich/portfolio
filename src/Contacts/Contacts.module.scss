@@ -1,7 +1,7 @@
 .contactWrapper {
   min-height: 65vh;
   background-color: #15142B;
-  padding: 20px 0 20px 0;
+  padding: 100px 0 100px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,15 +11,15 @@
     background: #15142b;
     border: 1px solid #363458;
     border-radius: 5px;
-    padding: 60px 25px 30px;
+    padding: 60px 65px 30px;
 
     .mainDescription h2 {
       color: white;
       font-size: 25px;
       font-weight: 600;
-      margin: 0 0 1em;
+
       text-align: center;
-      padding: 0;
+      padding: 0 0 50px 0;
       vertical-align: baseline;
       display: block;
     }
@@ -58,10 +58,10 @@
         border: 0;
         border-bottom: 1px solid #363458;
         border-radius: 0;
-        padding-left: 0;
         color: #fff;
         outline: 0;
         font-size: 20px;
+        //padding:  15px 0;
       }
 
       .buttonWrapper {

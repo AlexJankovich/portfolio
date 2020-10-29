@@ -19,9 +19,11 @@ function Skills () {
               iconColor='#48D6FF'
               iconSize='10x'
               title='ReactJS'
-              description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis dignissimos dolore eum fac'
+              description=
+                  'Создатели React скромно наывают его библиотекой, но разработчики обсуждают его без пяти мунут фреймворком. Имею опыт использования React для создания  SPA - приложений в связке с Redux'
+            level={4}
             />
-            <SkillsLevel n={4} />
+            {/*<SkillsLevel n={4} />*/}
           </div>
           <div className={style.skillItem}>
             <Skill
@@ -29,9 +31,10 @@ function Skills () {
               iconColor='#FF6D00'
               iconSize='10x'
               title='HTML5'
-              description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis d.'
+              description='Немного прокачан как верстальщик)'
+            level={3}
             />
-            <SkillsLevel n={3} />
+            {/*<SkillsLevel n={3} />*/}
           </div>
           <div className={style.skillItem}>
             <Skill
@@ -39,26 +42,29 @@ function Skills () {
               iconSize='10x'
               icon={faCss3}
               title='CSS3'
-              description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis dignissimos dolore eum facere fugit impedit maxime modi offic'
+              description='Использую в работе как CSS, так и SCSS, а так же "Styled components" в связке с React. Ну а для быстрого оформления есть "Material UI"'
+              level={3}
             />
-            <SkillsLevel n={3} />
+            {/*<SkillsLevel n={3} />*/}
           </div>
           <div className={style.skillItem}>
             <Skill
               title='TypeScript'
-              description='This is type script'
+              description='React и TypeScript созданы друг для друга (но это не точно)'
               imgURL={tsIcon}
-
+level={3}
             />
-            <SkillsLevel n={4} />
+            {/*<SkillsLevel n={4} />*/}
           </div>
           <div className={style.skillItem}>
             <Skill
               title='Redux'
-              description='This is Redux'
+              description='Redux - библиотека стейт-менеджмента, используемая в React для построения полноценного SPA.
+              Я использую её вместе с Redux-thunk'
               imgURL={ReduxIcon}
+              level={4}
             />
-            <SkillsLevel n={4} />
+            {/*<SkillsLevel n={4} />*/}
           </div>
         </div>
       </div>

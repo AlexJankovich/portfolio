@@ -1,4 +1,4 @@
-import React, {FormEvent} from 'react';
+import React from 'react';
 import style from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import axios from 'axios'
@@ -19,15 +19,6 @@ export const Contacts = () => {
     })
 
     const onSubmit = (data: FormDataType) => {
-        // e.preventDefault()
-        //
-        // const data = {
-        //     email: e.currentTarget.contacts.value,
-        //     name: e.currentTarget.yourName.value,
-        //     message: e.currentTarget.message.value
-        // }
-        console.log(data)
-
         axios.post('https://mail-smtp-nodejs-server.herokuapp.com/sendMessage', data)
             .then(() => {
                 alert('sent')

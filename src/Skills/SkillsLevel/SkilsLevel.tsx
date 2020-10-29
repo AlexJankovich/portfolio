@@ -1,7 +1,6 @@
 import React from "react";
 import s from './SkilsLevel.module.scss'
 import styled from 'styled-components'
-const levelStyle='nth-child(-n+5){background-color: red}'
 
 type SkillsLevelType={
     n:0|1|2|3|4|5|6

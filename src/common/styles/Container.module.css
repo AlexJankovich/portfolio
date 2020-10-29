@@ -4,3 +4,9 @@
     margin: 0 auto;
     flex-wrap: wrap;
 }
+
+@media screen and  (max-width: 660px){
+    .container {
+        width: 100%
+    }
+}

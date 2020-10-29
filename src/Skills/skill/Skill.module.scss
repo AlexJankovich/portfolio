@@ -1,13 +1,13 @@
 .skill {
   min-width: 200px;
-  width: 400px;
+  width: 650px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding: 15px;
-  //margin: 5px;
+  padding: 30px;
   color: white;
+  flex-wrap: wrap;
 
   .icon {
     margin: 10px;
@@ -20,25 +20,35 @@
   .descriptionWrapper {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    padding: 8px;
 
     h1 {
-      margin: 0;
-      font-size: 45px;
+      display: inline-block;
+      text-align: center;
+      padding: 25px;
+      border-bottom: 1px solid white;
     }
 
     .description {
-      padding: 8px 0;
+      padding: 25px 0;
       overflow: auto;
       width: 100%;
+      font-size: 30px;
+      text-align: center;
+      border-bottom: 1px solid white;
+      letter-spacing: 0.1rem;
+      line-height: 1.5;
     }
   }
 }
 
 @media screen and (max-width: 1400px) {
   .skill {
-    width: 80%;
+    width: 100%;
+    max-width: 650px;
+
+    .descriptionWrapper {
+      width: 100%;
+    }
   }
 }
 
@@ -47,11 +57,9 @@
     width: 100%;
 
     .descriptionWrapper {
-      width: 100%;
 
-      h1 {
-        display: inline-block;
-        text-align: center;
+      .description {
+        font-size: 25px;
       }
     }
   }
@@ -59,13 +67,10 @@
 
 @media screen and (max-width: 660px) {
   .skill {
-    flex-direction: column;
-
+    width: 100%;
     .descriptionWrapper {
-      align-items: center;
-
       .description {
-        text-align: center;
+        font-size: 20px;
       }
     }
   }

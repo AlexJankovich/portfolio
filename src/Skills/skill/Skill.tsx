@@ -2,8 +2,10 @@ import React from 'react';
 import style from './Skill.module.scss'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {IconProp} from "@fortawesome/fontawesome-svg-core";
+import {SkillsLevel} from "../SkillsLevel/SkilsLevel";
 
 type SkillType = {
+    level: 1 | 2 | 3 | 4 | 5 | 6
     title: string
     description: string
     icon?: IconProp
@@ -23,11 +25,11 @@ function Skill(props: SkillType) {
             </div>
             <div className={style.descriptionWrapper}>
                 <h1>{props.title}</h1>
-                <div className={style.description}>
+                <span className={style.description}>
                     {props.description}
-                </div>
+                </span>
             </div>
-
+            <SkillsLevel n={props.level}/>
         </div>
     );
 }

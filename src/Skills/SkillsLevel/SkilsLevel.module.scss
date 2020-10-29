@@ -1,19 +1,15 @@
 .levelWrapper {
   display: flex;
   flex-direction: row;
-  margin: 25px 0 25px 0;
-  float: right;
+  width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid white;
 
   div {
     height: 5px;
-    width: 60px;
-    border: 1px solid #a49b9b;
+    min-width: 36px;
+    border: 1px solid #ece8e8;
     margin-right: 3px;
+    flex-grow: 1;
   }
-}
-
-@media screen and (max-width: 630px){
-.levelWrapper{
-  width: 100%;
-}
 }

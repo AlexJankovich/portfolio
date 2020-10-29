@@ -17,6 +17,8 @@
   .title{
     text-align: center;
     font-size: 25px;
+    letter-spacing: 0.15rem;
+    line-height: 1.5;
   }
   .buttonWrapper {
     vertical-align: baseline;
@@ -32,5 +34,16 @@
       font-weight: 600;
       position: relative;
     }
+  }
+}
+
+@media screen and (max-width: 660px ){
+  .title{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 524px ){
+  .title{
+    font-size: 10px;
   }
 }

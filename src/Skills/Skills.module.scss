@@ -1,35 +1,39 @@
-.mainBlock{
+.mainBlock {
   min-height: 85vh;
   background-color: #201E43;
   border-top: 1px solid;
   display: flex;
   align-items: center;
-  padding: 100px 0 ;
-  .skillsContainer{
+  padding: 100px 0;
+
+  .skillsContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 
-    .title{
+    .title {
       padding: 5px;
       font-weight: bold;
-      color:white;
+      color: white;
       //letter-spacing: 0.3rem;
       //font-weight: bold;
     }
-    .skills{
+
+    .skills {
       width: 100%;
       min-height: 20%;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-around;
-      padding-top: 100px ;
-      .skillItem{
+      padding-top: 100px;
+
+      .skillItem {
         margin-bottom: 10px;
-        box-shadow: -2px 5px 7px -6px #d98f8f;
+        //box-shadow: -2px 5px 7px -6px #d98f8f;
       }
+
       @media screen and (max-width: 933px) {
         .skillItem {
           width: 80%;

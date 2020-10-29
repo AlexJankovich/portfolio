@@ -2,35 +2,38 @@ import React, {FormEvent} from 'react';
 import style from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import axios from 'axios'
+import {useForm} from "react-hook-form";
 
+type FormDataType = {
+    email: string
+    name: string
+    message: string
+}
 
-// type ContactsType={
-//     title:string
-//     description:string
-// }
+export const Contacts = () => {
 
-function Contacts() {
-    type FormType = {
-        contacts: string
-        yourName: string
-        message:string
-    }
+    const {register, handleSubmit, errors, reset} = useForm<FormDataType>({
+        // by setting validateCriteriaMode to 'all',
+        // all validation errors for single field will display at once
+        criteriaMode: "all"
+    })
 
-    const onSubmit = (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
-
-        const data = {
-            email: e.currentTarget.contacts.value,
-            name: e.currentTarget.yourName.value,
-            message: e.currentTarget.message.value
-        }
+    const onSubmit = (data: FormDataType) => {
+        // e.preventDefault()
+        //
+        // const data = {
+        //     email: e.currentTarget.contacts.value,
+        //     name: e.currentTarget.yourName.value,
+        //     message: e.currentTarget.message.value
+        // }
         console.log(data)
 
         axios.post('https://mail-smtp-nodejs-server.herokuapp.com/sendMessage', data)
             .then(() => {
                 alert('sent')
+                reset()
             })
-            .catch(()=>{
+            .catch(() => {
                 alert('Some Error')
             })
     }
@@ -40,10 +43,32 @@ function Contacts() {
             <div className={styleContainer.container}>
                 <div className={style.form}>
                     <div className={style.mainDescription}><h2>Контакты</h2></div>
-                    <form action=" " onSubmit={onSubmit}>
-                        <input type="text" placeholder='Email' name={'contacts'}/>
-                        <input type="text" placeholder='Name' name={'yourName'}/>
-                        <textarea name={'message'} placeholder={'Message'}></textarea>
+                    <form onSubmit={handleSubmit(onSubmit)}>
+                        <input
+                            type="text"
+                            placeholder='Email'
+                            name={'email'}
+                            ref={register({
+                                required: true,
+                                pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
+                            })}
+                        />
+                        {errors?.email?.types?.required && <p>введите email</p>}
+                        {errors?.email?.types?.pattern && <p>введите корректный email</p>}
+                        <input
+                            type="text"
+                            placeholder='Name'
+                            name={'name'}
+                            ref={register}
+                        />
+                        {errors?.email?.types?.required && <p>введите имя</p>}
+                        <textarea
+                            name={'message'}
+                            placeholder={'message'}
+                            ref={register({required: true})}
+                        >
+                        </textarea>
+                        {errors?.email?.types?.required && <p>введите сообщение</p>}
                         <div className={style.buttonWrapper}>
                             <button>отправить</button>
                         </div>
@@ -53,5 +78,3 @@ function Contacts() {
         </div>
     );
 }
-
-export default Contacts;

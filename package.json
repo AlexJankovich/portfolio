@@ -22,7 +22,9 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.9.6",
     "react-scripts": "3.4.3",
+    "standard": "^14.3.4",
     "styled-components": "^5.2.0",
     "typescript": "~3.7.2"
   },
@@ -48,5 +50,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "stylelintrc": {
+    "extends": "stylelint-config-standard"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^5.1.3"
   }
 }

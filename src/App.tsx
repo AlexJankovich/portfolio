@@ -6,7 +6,8 @@ import Skills from "./Skills/Skills";
 import Works from "./Works/Works";
 import {OnlineJob} from "./OnlineJob/OnlineJob";
 import Footer from "./Footer/Footer";
-import Contacts from "./Contacts/Contacts";
+import {Contacts} from "./Contacts/Contacts";
+
 
 function App() {
     return (

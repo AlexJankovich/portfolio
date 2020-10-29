@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Works.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
-import Work from "../work/Work";
+import Work from "./work/Work";
 import social from '../assets/image/social.jpg'
 import todolist from '../assets/image/todolist.jpg'
 

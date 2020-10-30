@@ -8,7 +8,7 @@ type SkillsLevelType={
 
 export const SkillsLevel = (props:SkillsLevelType) =>{
     const Div =styled.div`
-  Div:nth-child(-n+${props.n}){background-color: red};
+  Div:nth-child(-n+${props.n}){background-color: #fe3e57};
 `
     return(
         <Div className={s.levelWrapper}>

@@ -6,6 +6,11 @@
   justify-content: center;
   align-items: center;
   color: white;
+  position: relative;
+
+  img {
+    position: absolute;
+  }
 
   .form {
     background: #15142b;
@@ -65,6 +70,7 @@
       .buttonWrapper {
         vertical-align: baseline;
         text-align: center;
+
         button {
           background: #fe3e57;
           color: #fff;

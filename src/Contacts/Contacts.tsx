@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './Contacts.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import axios from 'axios'
 import {useForm} from "react-hook-form";
+import {Preloader} from "../common/preloader/preloader";
 
 type FormDataType = {
     email: string
@@ -12,6 +13,8 @@ type FormDataType = {
 
 export const Contacts = () => {
 
+    const[isFetching, setIsFetching] = useState<boolean>(false)
+
     const {register, handleSubmit, errors, reset} = useForm<FormDataType>({
         // by setting validateCriteriaMode to 'all',
         // all validation errors for single field will display at once
@@ -19,18 +22,23 @@ export const Contacts = () => {
     })
 
     const onSubmit = (data: FormDataType) => {
+        setIsFetching(true)
         axios.post('https://mail-smtp-nodejs-server.herokuapp.com/sendMessage', data)
             .then(() => {
                 alert('sent')
                 reset()
+                setIsFetching(false)
             })
             .catch(() => {
                 alert('Some Error')
+                setIsFetching(false)
             })
     }
 
     return (
+
         <div className={style.contactWrapper} id='contacts'>
+            {isFetching? <Preloader/>:null}
             <div className={styleContainer.container}>
                 <div className={style.form}>
                     <div className={style.mainDescription}><h2>Контакты</h2></div>

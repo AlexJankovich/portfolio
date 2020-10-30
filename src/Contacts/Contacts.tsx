@@ -30,7 +30,7 @@ export const Contacts = () => {
     }
 
     return (
-        <div className={style.contactWrapper}>
+        <div className={style.contactWrapper} id='contacts'>
             <div className={styleContainer.container}>
                 <div className={style.form}>
                     <div className={style.mainDescription}><h2>Контакты</h2></div>
@@ -61,7 +61,7 @@ export const Contacts = () => {
                         </textarea>
                         {errors?.email?.types?.required && <p>введите сообщение</p>}
                         <div className={style.buttonWrapper}>
-                            <button>отправить</button>
+                            <button>Отправить</button>
                         </div>
                     </form>
                 </div>

@@ -5,7 +5,7 @@ import sixCorner from '../assets/image/6corner.png'
 
 function Main() {
     return (
-        <div className={style.mainBlock}>
+        <div className={style.mainBlock} id='main'>
             <div className={styleContainer.container +" " +style.mainContainer}>
                 <div className={style.sixCorner}>
                     <img src={sixCorner} alt=""/>

@@ -9,7 +9,7 @@ import { SkillsLevel } from './SkillsLevel/SkilsLevel'
 
 function Skills () {
   return (
-    <div className={style.mainBlock}>
+    <div className={style.mainBlock} id='skills'>
       <div className={styleContainer.container + ' ' + style.skillsContainer}>
         <h2 className={style.title}>Мои скилы</h2>
         <div className={style.skills}>

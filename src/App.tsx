@@ -13,7 +13,7 @@ function App() {
     return (
         <div className='wrapper'>
             <Header/>
-            <Main/>
+            <Main />
             <Skills/>
             <Works/>
             <OnlineJob/>

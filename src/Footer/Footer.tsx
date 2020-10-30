@@ -9,7 +9,7 @@ import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 function Footer() {
     return (
         <>
-            <div className={style.footer}>
+            <div className={style.footer} >
                 <div className={styleContainer.container}>
                     <div className={style.wrapper}>
                         <div className={style.contentWrapper}>
@@ -19,7 +19,7 @@ function Footer() {
                             </div>
                             <div className={style.linksWrapper}>
                                 <div>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/aleksandryankovich/">
                                         <FontAwesomeIcon
                                             icon={faLinkedin}
                                             color='#6FB3E8'
@@ -27,17 +27,17 @@ function Footer() {
                                         />
                                     </a>
                                 </div>
+                                {/*<div>*/}
+                                {/*    <a href="#">*/}
+                                {/*        <FontAwesomeIcon*/}
+                                {/*            icon={faFacebook}*/}
+                                {/*            color='#3B569D'*/}
+                                {/*            size={"2x"}*/}
+                                {/*        />*/}
+                                {/*    </a>*/}
+                                {/*</div>*/}
                                 <div>
-                                    <a href="#">
-                                        <FontAwesomeIcon
-                                            icon={faFacebook}
-                                            color='#3B569D'
-                                            size={"2x"}
-                                        />
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="#">
+                                    <a href="https://t.me/AleksandrX83">
                                         <FontAwesomeIcon
                                             icon={faTelegram}
                                             color='#1A9DD9'
@@ -46,7 +46,7 @@ function Footer() {
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
+                                    <a href="https://github.com/AlexJankovich">
                                         <FontAwesomeIcon
                                             icon={faGithub}
                                             color='white'
@@ -55,7 +55,7 @@ function Footer() {
                                     </a>
                                 </div>
                                 <div>
-                                    <a href="#">
+                                    <a href="#online">
                                         <FontAwesomeIcon
                                             icon={faEnvelope}
                                             color='#FFCC00'

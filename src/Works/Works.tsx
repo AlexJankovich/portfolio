@@ -7,7 +7,7 @@ import todolist from '../assets/image/todolist.jpg'
 
 function Works() {
     return (
-        <div className={style.mainWorkBlock}>
+        <div className={style.mainWorkBlock} id='projects'>
             <div className={styleContainer.container + " " + style.workContainer}>
                 <h2 className={style.title}>Мои работы</h2>
                 <div className={style.works}>

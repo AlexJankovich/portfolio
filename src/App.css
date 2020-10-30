@@ -1,23 +1,17 @@
 .wrapper {
-    /*margin: 0 auto;*/
     min-width: 350px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-    /*font-size: 2em;*/
 }
 
 .wrapper h2 {
     font-size: 5vh;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.3rem;
     font-weight: bold;
     text-align: center;
+    font-stretch: condensed;
 }
 
-/*@media screen and (max-width: 654px) {*/
-/*    .wrapper h2 {*/
-/*        font-size: 55px;*/
-/*        text-align: center;*/
-/*    }*/
-/*}*/
+
 

@@ -6,6 +6,40 @@ import social from '../assets/image/social.jpg'
 import todolist from '../assets/image/todolist.jpg'
 
 function Works() {
+
+    const socialDescription = <>
+        <b>Проект сделан с использованием:</b><br/>
+        React,<br/>
+        React-router<br/>
+        React-hooks<br/>
+        React-Redux,<br/>
+        Redux-thunk,<br/>
+        Redux-form<br/>
+        Axios,<br/>
+        Node-SASS,<br/>
+        TypeScript<br/>
+        <br/>
+        <b>Готовность проекта:</b> 95%<br/>
+        <br/>
+        <b>Планируется:</b> jest, react-hook-form, deploy on gh-pages, Redux-toolkit
+    </>
+    const todoListDescription = <>
+        <b>Проект сделан с использованием:</b><br/>
+        React,<br/>
+        React-router<br/>
+        React-hooks<br/>
+        React-Redux,<br/>
+        Redux-thunk,<br/>
+        Redux-form<br/>
+        Axios,<br/>
+        Material UI,<br/>
+        TypeScript,<br/>
+        Jest-test<br/>
+        <br/>
+        <b>Планируется:</b> deploy on gh-pages, Redux-toolkit
+    </>
+
+
     return (
         <div className={style.mainWorkBlock} id='projects'>
             <div className={styleContainer.container + " " + style.workContainer}>
@@ -14,12 +48,12 @@ function Works() {
                     <Work
                         imgUrl={social}
                         title={"Социальная сеть"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis dignissimos dolore eum fac"}
+                        description={socialDescription}
                     />
                     <Work
                         imgUrl={todolist}
                         title={"ToDoList"}
-                        description={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi debitis d."}
+                        description={todoListDescription}
                     />
 
                 </div>

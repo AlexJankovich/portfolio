@@ -5,7 +5,6 @@ import Skill from './skill/Skill'
 import { faReact, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons'
 import tsIcon from '../assets/image/tsIcon.png'
 import ReduxIcon from '../assets/image/redux-seeklogo.com.svg'
-import { SkillsLevel } from './SkillsLevel/SkilsLevel'
 
 function Skills () {
   return (

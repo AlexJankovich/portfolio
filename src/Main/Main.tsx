@@ -6,25 +6,26 @@ import Ball from '../assets/image/ball.png'
 import smallBall from '../assets/image/smallball.png'
 import square from '../assets/image/square.png'
 import smallSweetBall from '../assets/image/smallsweetball.png'
+import avatar from '../assets/image/avatar.jpg'
 
 function Main() {
     return (
         <div className={style.mainBlock} id='main'>
             <div className={styleContainer.container +" " +style.mainContainer}>
                 <div className={style.sixCorner}>
-                    <img src={sixCorner} alt=""/>
+                    <img src={sixCorner} alt="figure"/>
                 </div>
                 <div className={style.Ball}>
-                    <img src={Ball} alt=""/>
+                    <img src={Ball} alt="figure"/>
                 </div>
                 <div className={style.smallBall}>
-                    <img src={smallBall} alt=""/>
+                    <img src={smallBall} alt="figure"/>
                 </div>
                 <div className={style.square}>
-                    <img src={square} alt=""/>
+                    <img src={square} alt="figure"/>
                 </div>
                 <div className={style.smallSweetBall}>
-                    <img src={smallSweetBall} alt=""/>
+                    <img src={smallSweetBall} alt={"figure"}/>
                 </div>
 
                 <div className={style.text}>
@@ -32,7 +33,7 @@ function Main() {
                     <h1>I am REACT-DEVELOPER</h1>
                     <span>FrontEnd developer</span>
                 </div>
-                    <img src='https://u24.ru/img/news/article_big_389791501756126.jpg'   className={style.img} />
+                    <img src={avatar}   className={style.img} alt={'avatar'} />
             </div>
         </div>
     );

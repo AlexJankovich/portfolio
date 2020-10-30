@@ -24,8 +24,6 @@
 
     button {
       position: absolute;
-      //width: 50%;
-      //z-index: -1;
       font-size: 25px;
       visibility: hidden;
     }
@@ -49,14 +47,21 @@
   }
 
   h3 {
+    font-size: 25px;
     color: #d2d0d0;
+    padding: 20px 0;
   }
 
   .description {
-    text-align: center;
-    padding: 8px;
-    overflow: auto;
+    text-align: left;
+    padding: 20px 0;
+    //overflow: auto;
     color: #d2d0d0;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    line-height: 1.6;
+    width: 100%;
   }
 }
 

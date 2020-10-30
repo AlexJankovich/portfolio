@@ -3,7 +3,7 @@ import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import Nav from "../Nav/Nav";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLinkedin, faFacebook, faTelegram, faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faTelegram, faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 
 function Footer() {
@@ -27,15 +27,6 @@ function Footer() {
                                         />
                                     </a>
                                 </div>
-                                {/*<div>*/}
-                                {/*    <a href="#">*/}
-                                {/*        <FontAwesomeIcon*/}
-                                {/*            icon={faFacebook}*/}
-                                {/*            color='#3B569D'*/}
-                                {/*            size={"2x"}*/}
-                                {/*        />*/}
-                                {/*    </a>*/}
-                                {/*</div>*/}
                                 <div>
                                     <a href="https://t.me/AleksandrX83">
                                         <FontAwesomeIcon

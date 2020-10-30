@@ -1,21 +1,23 @@
 .wrapper {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     min-width: 350px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    /*font-size: 2em;*/
 }
 
 .wrapper h2 {
-    font-size: 70px;
+    font-size: 5vh;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.2rem;
     font-weight: bold;
+    text-align: center;
 }
 
-@media screen and (max-width: 654px) {
-    .wrapper h2 {
-        font-size: 55px;
-        text-align: center;
-    }
-}
+/*@media screen and (max-width: 654px) {*/
+/*    .wrapper h2 {*/
+/*        font-size: 55px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
 

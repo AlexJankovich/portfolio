@@ -1,12 +1,15 @@
 .nav{
-    width: fit-content;
-    padding:10px;
+    width: 100%;
+    /*padding:5px 5px 5px 5px;*/
     display: flex;
     justify-content: center;
+    float: right;
 }
 .nav a{
     color: white;
     text-decoration: none;
-    letter-spacing: 0.08rem;
-    padding: 0 5px;
+    /*letter-spacing: 0.08rem;*/
+    padding: 5px;
+    /*font-size: 3vw;*/
 }
+

@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 5px;
+  padding: 20px;
   margin-bottom: 25px;
 
   .icon {
@@ -60,8 +60,9 @@
   }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 990px) {
   .work {
-    width: 480px;
+    width: 80%;
+    padding: 20px 0;
   }
 }

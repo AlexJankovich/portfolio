@@ -6,6 +6,7 @@
   display: flex;
   align-content: center;
   font-size: 25px;
+  position: relative;
 
   .mainContainer {
     padding: 5px;
@@ -19,6 +20,98 @@
       position: absolute;
       z-index: 0;
       right: 50%;
+      transform: rotate(-360deg);
+
+      @keyframes rotate {
+        from {
+          transform: rotate(-360deg)
+        }
+        to {
+          transform: rotate(0deg)
+        }
+
+      }
+      animation: rotate 15s infinite linear;
+
+      img {
+        height: 150px;
+      }
+    }
+    .Ball {
+      width: 700px;
+      position: absolute;
+      z-index: 0;
+      right:0%;
+      top: 30%;
+      transform: rotate(360deg);
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg)
+        }
+        to {
+          transform: rotate(360deg)
+        }
+
+      }
+      animation: rotate 30s infinite linear;
+
+      img {
+        height: 200px;
+      }
+    }
+    .smallBall {
+      width: 600px;
+      position: absolute;
+      z-index: 0;
+      right: 0%;
+      top: 20%;
+      transform: rotate(360deg);
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg)
+        }
+        to {
+          transform: rotate(360deg)
+        }
+
+      }
+      animation: rotate 20s infinite linear;
+
+      img {
+        height: 100px;
+      }
+    }
+    .square {
+      width: 300px;
+      position: absolute;
+      z-index: 0;
+      right: 0%;
+      top: 30%;
+      transform: rotate(360deg);
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg)
+        }
+        to {
+          transform: rotate(360deg)
+        }
+
+      }
+      animation: rotate 15s infinite linear;
+
+      img {
+        height: 100px;
+      }
+    }
+    .smallSweetBall {
+      width: 600px;
+      position: absolute;
+      z-index: 0;
+      right: 70%;
+      top: 30%;
       transform: rotate(360deg);
 
       @keyframes rotate {
@@ -33,7 +126,7 @@
       animation: rotate 10s infinite linear;
 
       img {
-        height: 100px;
+        height: 70px;
       }
     }
 

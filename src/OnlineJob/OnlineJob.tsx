@@ -9,7 +9,7 @@ export const OnlineJob =()=>{
             <div className={styleContainer.container+' '+ style.onlineJbBlock}>
                 <div className={style.title}>
                     <span>Рассматриваю варианты удалённой работы <br/>
-                    ( Но офис с печеньками лучше)) )
+                    Но офис с печеньками лучше))
                     </span>
                 </div>
                 <div className={style.buttonWrapper}>

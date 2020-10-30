@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a0f468c65c9e02f87a07d5141b2e681",
+    "revision": "8c56c16ba5d767a4d010c8c9f7ee7f25",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8aed1221300921975f3d",
-    "url": "/portfolio/static/css/main.0fe2ccde.chunk.css"
+    "revision": "2277be348bea58db0f21",
+    "url": "/portfolio/static/css/main.e29f26b7.chunk.css"
   },
   {
     "revision": "da3bab21756b73c8fabf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.bbdf923e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8aed1221300921975f3d",
-    "url": "/portfolio/static/js/main.428739b7.chunk.js"
+    "revision": "2277be348bea58db0f21",
+    "url": "/portfolio/static/js/main.7b7b8220.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/loading.b3221b81.gif"
   },
   {
-    "revision": "85772647236e76b8e772c14c092a28ac",
-    "url": "/portfolio/static/media/redux-seeklogo.com.85772647.svg"
+    "revision": "8db5010752a9c3fe4f5092387dcf73ae",
+    "url": "/portfolio/static/media/redux-seeklogo.com.8db50107.svg"
   },
   {
     "revision": "0f222da3f7e557f4d180f850f3fe332b",
